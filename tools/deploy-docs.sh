@@ -6,7 +6,11 @@ git checkout gh-pages
 
 cp -R _book/* .
 
+git add .
 
+git commit -m 'deploy access doc'
+
+git push origin gh-pages
 
 #git clone https://github.com/swan-team/host-app-guide.git ./docs
 
