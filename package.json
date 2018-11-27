@@ -4,7 +4,7 @@
   "description": "百度小程序开源宿主接入规范文档",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "sh tools/deploy-docs.sh"
   },
   "repository": {
     "type": "git",
