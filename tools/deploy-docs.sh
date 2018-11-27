@@ -6,24 +6,10 @@ git checkout gh-pages
 
 cp -R _book/* .
 
+git add .
 
+git commit -m 'deploy host-app docs'
 
-#git clone https://github.com/swan-team/host-app-guide.git ./docs
+git push origin gh-pages
 
-# cd ./docs
-# 
-# git checkout gh-pages
-# 
-# cd ../
-# 
-# echo '开始编译'
-# 
-# node_modules/.bin/gitbook build ./root ./docs
-# 
-# cd ./docs
-# 
-# git add .
-# 
-# git commit -m 'deploy host-app docs'
-# 
-# git push origin gh-pages
+git checkout master
